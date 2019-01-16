@@ -1,0 +1,34 @@
+<% include ./partials/header %>
+<%include ./partials/navbar %>
+
+<header class='shadow'>
+    <div class='mx-auto d-flex justify-content-center align-items-center'>
+    <div class='container'>
+        <div class='p-2'>
+                <h3 class='lead'>Coffee Ipsum</h3>
+                <h1>Cream mocha caffeine</h1>
+                <p class='text-light'>Viennese galão, arabica breve viennese grinder and steamed viennese grinder. Decaffeinated redeye, roast filter caffeine chicory affogato.
+        </div>
+    </div>
+<% include partials/newsletter %>
+</div>
+</header>
+<main class='container-fluid'>
+    <section class='container d-flex flex-md-row flex-wrap  align-content-md-center align-content-lg-center '>
+            <% blog.map(item => {%>
+                <article class='pb-3 m-2 shadow mx-auto-sm'>
+                        <div class='img-container'>
+                        <img src='<%= item.img %>' />
+                </div>
+                <h2 class='p-3'><a href='#'><%= item.title %></a></h2>
+            </article>
+            <% }) %>
+    </section>
+<% include ./partials/form %>
+
+</main>
+<footer class='container-fluid'>
+
+</footer>
+<% include ./partials/footer %>
+
