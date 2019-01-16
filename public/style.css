@@ -28,6 +28,9 @@ header {
     background-color: #b2aba3;
     background: linear-gradient(110deg, rgba(0,0,0,0.9), rgba(0,0,0,0.4)), url('https://images.pexels.com/photos/773958/pexels-photo-773958.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') no-repeat center;
     background-size: cover;
+    
+    background-attachment: scroll;
+    background-attachment: fixed;
     width: 100%;
     height: 1000px;
     padding: 3em;
@@ -64,9 +67,9 @@ header > div > .container > div p {
     text-align: justify;
 }
 #newsletter {
-    background-color: #d7d6d4;
+    background-color: rgba(215,214,212,0.92);
     color: #2f2f2f;
-    box-shadow:0 0 10px grey, 15px 15px rgba(119,119,118,0.7), -30px -15px #b2aba3;
+    box-shadow:0 0 10px grey, 15px 15px rgba(119,119,118,0.7), -30px -15px rgba(178,171,163, 0.8);
 }
 #newsletter h2 {
     font-family: 'Staatliches', cursive !important;
