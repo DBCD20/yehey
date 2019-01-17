@@ -37,6 +37,6 @@ let blog = [
 ]
 
 Router.get('/', (req, res) => res.render('./index', {blog: blog}));
-
+Router.get('/signup/new', (req, res) => res.render('./sign_up'));
 
 module.exports = Router;

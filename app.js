@@ -10,7 +10,7 @@ const   express         = require('express'),
         methodOverride  = require('method-override'); 
 
 app.set('view engine', 'ejs');
-app.use(express.static(__dirname + '/public'));
+app.use(express.static( __dirname + '/public' ));
 
 app.use('/', page);
 
