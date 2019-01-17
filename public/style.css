@@ -2,6 +2,10 @@
 body {
     background-color: #efeeec;
 }
+.navbar-brand > span {
+    color: rgb(239,203,137) !important;
+    font-weight: 700;
+}
 a {
     color: inherit;
 }
@@ -10,14 +14,15 @@ a:hover {
 }
 .nav-link {
     color: #b2aba3 !important;
-    font-weight: 700;
+    font-weight:100;
     font-size: 1.3em;
 }
 .nav-link:hover {
-    color: white !important;
+    color: #FF9900 !important;
 }
 .navbar {
-   background: #2f2f2f;
+   background: #ffff;
+   padding: 1em;
 }
 @media(max-width: 768px){
     header {
@@ -25,9 +30,9 @@ a:hover {
     }
 }
 header {
-    background-color: #b2aba3;
-    background: linear-gradient(110deg, rgba(0,0,0,0.9), rgba(0,0,0,0.4)), url('https://images.pexels.com/photos/773958/pexels-photo-773958.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') no-repeat center;
-    background-size: cover;
+    background-color: rgb(209,158,86);
+    /* background: linear-gradient(110deg, rgba(0,0,0,0.9), rgba(0,0,0,0.4)), url('https://images.pexels.com/photos/773958/pexels-photo-773958.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') no-repeat center;
+    background-size: cover; */
     
     background-attachment: scroll;
     background-attachment: fixed;
@@ -39,12 +44,12 @@ header {
 header > div {
     height: 100%;
     max-width: 1200px;
-    color: #b2aba3;
+    color: white;
     flex-flow: row wrap;
 }
 @media(min-width: 924px){
     header > div {
-        color: #b2aba3;
+        color: white;
         flex-flow: row;
     }
     header {
@@ -57,17 +62,17 @@ header > div > .container > div {
 }
 header > div > .container > div h1 {
     font-family: 'Staatliches', cursive !important;
-    font-size: 4.2em !important;
+    font-size: 2.7em !important;
 }
 header > div > .container > div h3 {
-    font-size: 2.2em !important;
+    font-size: 1.8em !important;
 }
 header > div > .container > div p {
     font-family: 'Raleway', sans-serif !important;
-    text-align: justify;
+    text-align: left;
 }
 #newsletter {
-    background-color: rgba(215,214,212,0.92);
+    background-color: #fff;
     color: #2f2f2f;
     box-shadow:0 0 10px grey, 15px 15px rgba(119,119,118,0.7), -30px -15px rgba(178,171,163, 0.8);
 }
